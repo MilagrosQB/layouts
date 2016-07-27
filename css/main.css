@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: content-box;
+	font-family: Tahoma;
+}
+header, .main{
+	width:90%;
+	max-width: 1000px;
+	margin-left:330px;
+}
+header .indice {
+	width: 700px;
+	overflow:hidden;
+	border-bottom:2px solid black;
+	border-top:2px solid black;
+}
+header .indice ul{
+	list-style: none;
+	margin-left:60px;
+}
+header .indice ul li{
+	float:left;
+}
+header .indice ul li a{
+	padding:10px 20px;
+	display:block;
+	color:black;
+	text-decoration: none;
+}
+header .indice ul li a:hover{
+	background:#ABA9A9;
+}
+.central{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.linea-ayuda{
+	width: 60px;
+	height: 2px;
+	background: #1A1A1A;
+	margin: 20px 175px;
+}
+.description{
+	font-size: 20px;
+	width: 450px;
+	text-align: center;
+	margin: 20px auto;
+}
+.coders{
+	margin-left: 330px;
+}
+.linea{
+	width:110px;
+	height:4px;
+	background: #1A1A1A;
+	margin:8px 0px;
+}
+.caja-perfiles{
+	width:700px;
+	height:460px;
+	margin-left:10px;
+}
+.perfil{
+	width:211px;
+	height:211px;
+	margin:8px 8px;
+	position:relative;
+}
+.inline-block{
+	display:inline-block;
+}
+.nombre{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	color:white;
+	margin: 4px 4px;
+}
+.logotipo{
+	margin: 20px auto;
+}
+.contenedor{
+	width: 700px;
+	margin: 20px auto;
+	border: 2px solid black;
+	text-align: center;
+}
+.profile img{
+	border-radius: 50%;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.profile{
+	font-size: 20px;
+}
+.profile p{
+	width: 560px;
+	margin: 15px auto;
+	font-size: 20px;
+}
+.habilidades{
+	text-align: left;
+}
+.habilidades h2{
+	margin-left: 40px;
+	font-size: 30px;
+}
+.bloque-uno{
+	width: 500px;
+	height: 60px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 80px;
+	background-color:#ABA9A9;
+	position: relative;
+}
+.bloque-dos{
+	width: 350px;
+	height: 60px;
+	margin-bottom: 30px;
+	margin-left: 80px;
+	background-color:#ABA9A9;
+	position: relative;
+}
+.bloque-tres{
+	width: 300px;
+	height: 60px;
+	margin-bottom: 30px;
+	margin-left: 80px;
+	background-color:#ABA9A9;
+	position: relative;
+}
+.letra-bloque{
+	color:white;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.portaf{
+	display: inline-block;
+}
+.caja{
+	width: 570px;
+	text-align: left;
+	margin-left: 70px;
+}
+.caja h2{
+	margin-left: -30px;
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+.caja div{
+	display:inline;
+}
+.portaf img{
+	width: 150px;
+	height: 140px;
+	margin-left: 20px;
+	padding-right: 10px;
+}
